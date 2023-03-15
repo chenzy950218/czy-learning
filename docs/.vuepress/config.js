@@ -1,7 +1,8 @@
 module.exports = {
-	title: 'TypeScript4 文档',
-	description: 'TypeScript4 最新官方文档翻译',
+	title: '文档',
+	description: '翻译',
 	base: '/czy-learning/',
+	dest: 'public',
 	theme: 'reco',
 	locales: {
 		'/': {
@@ -14,12 +15,12 @@ module.exports = {
 		nav: [
 			{ text: '首页', link: '/' },
 			{
-				text: '冴羽的 JavaScript 博客',
+				text: 'czy的 JavaScript 博客',
 				items: [
 					{ text: 'Github', link: 'https://github.com/chenzy950218' },
 					{
 						text: '掘金',
-						link: 'https://juejin.cn/user/712139234359182/posts',
+						// link: 'https://juejin.cn/user/',
 					},
 				],
 			},
@@ -38,6 +39,8 @@ module.exports = {
 				children: [
 					{ title: '条件类型', path: '/handbook/ConditionalTypes' },
 					{ title: '泛型', path: '/handbook/Generics' },
+					{ title: '抽奖', path: '/handbook/test' },
+					{ title: '抽奖2', path: '/handbook/test2' },
 				],
 			},
 		],
